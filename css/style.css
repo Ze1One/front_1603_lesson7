@@ -1,0 +1,44 @@
+body{
+
+    font-family: 'Times New Roman';
+    max-width: 400px;
+    min-width: 200px;
+    background-color: rgb(144, 146, 240);
+
+}
+
+p{ 
+    color: rgb(43, 226, 89);
+    font-size: 25px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    line-height: 25px;
+
+    font-family: 'Times New Roman' ;
+    border-bottom: solid 5px  rgb(0, 0, 0);
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+span{
+    
+    text-decoration: underline;
+
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    border: solid rgb(42, 75, 134);
+    border-radius: 15px;
+}
+nav{
+    text-align: center;
+}

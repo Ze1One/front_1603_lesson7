@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* .left {
+    float: left;
+   
+
+}
+
+.right {
+    float: right;
+
+} */
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    background-color: gray;
+
+}
+
+.right {
+    height: 600px;
+}
+
+p {
+    background-color: rgb(153, 142, 142);
+}
+
+p.sticky {
+    background-color: rgb(237, 254, 0);
+    position: sticky;
+    top: 0;
+}

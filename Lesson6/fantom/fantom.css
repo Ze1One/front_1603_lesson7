@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 50px;
+    line-height: 200px;
+}
+body{
+    font-size: 0;
+}

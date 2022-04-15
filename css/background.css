@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+p{
+    width: 500px;
+    border: 5px dashed black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 5px;
+    color: rgb(107, 255, 70);
+}
+
+.first{
+    background-color: antiquewhite;
+
+}
+
+.big-background {
+    background-image: url(../Lesson3/img/marvel-2020.jpg);
+}
+.smal-background{
+    background-image: url(../Lesson3/img/1.jpg);
+}
+
+
+.fourth{
+
+    background-position: right top;
+}
+
+.fifth{
+    
+    background-position: 50% 50%;
+}
+.sixth{
+    background-position:20px 15px ;
+    background-repeat:no-repeat ;
+    background-color: aquamarine;
+}
+
+.seventh{
+    background-position:50px 15px ;;
+    background-repeat:no-repeat ;
+}
+
+.eighth{
+    background-size: 100px 100px;
+}
+
+.ninth, .tenth {
+    background-size: cover;
+}
+
+.twelfth, .eleventh {
+    background-size: contain;
+}
+.thirteen{
+    background-image: linear-gradient(to top, White, red, green );
+}

@@ -1,0 +1,23 @@
+.selected {
+    font-size: 30px;
+    color: red;
+}
+div.first {
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+}
+
+.first {
+    color: rgb(231, 119, 119);
+    font-size: 15px;
+}
+.selected span {
+    color: orange;
+    font-size: 20px;
+}
+.last-block p, span.violet {
+    color: green;
+}
+div.first.selected * {
+    padding-left: 1px;
+}

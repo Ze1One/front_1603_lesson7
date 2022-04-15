@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}
+a:hover{
+    background-color: rgba(11, 11, 26, 0.384);
+}

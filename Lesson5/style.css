@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "freedoom";
+    src: url(../Lesson5/fonts/Freedom-10eM.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+h1, p{
+    margin-bottom: 20px;
+}
+.google_fonts{
+    font-family: 'Lobster', cursive;
+}
+.font_face{
+    font-family: "freedoom" ;
+    font-size: 40px;
+}
