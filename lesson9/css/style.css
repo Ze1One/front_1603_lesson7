@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(169, 104, 104);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0;
+    /* 40px - верхний и нижний, 0 - левый и правый */
+}
+
+.input-field label {
+    display: inline-block;
+    min-width: 200px;
+
+
+}
+
+.input-field {
+    margin-bottom: 20px;
+
+}
+
+.input-field input {
+    padding: 10px;
+}
+
+.input-field input:invalid {
+    background-color: red;
+    ou
+}
+
+.input-field input:focus {
+    background-color: aqua;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-field:hover label {
+    font-size: 15px;
+}
+
+.input-field_pd p {
+    display: inline-block;
+    min-width: 200px;
+
+}
+
+.input-field_pd input:hover label {
+    font-size: 15px;
+
+}
+
+.input-field_pd:hover p {
+    font-size: 20px;
+}
+
+.pasword input:focus::placeholder {
+    font-size: 0;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+}
+
+.change-check input {
+    display: none;
+}
+
+.change-check label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.change-check span {
+    display: inline-block;
+    margin-left: 120px;
+    width: 40px;
+    height: 40px;
+    border: 2px rgb(229, 255, 0) dashed;
+    border-radius: 3px;
+    background-color:rebeccapurple;
+    position: relative;
+}
+.change-check input:checked+span {
+    border: 3px;
+    background-color: red;
+    
+
+}
+.change-check input:checked+span::after{
+    content: "+";
+    font-size:50px;
+    color: rgb(21, 13, 13);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.change-radio input{
+    display:none;
+    z-index: -1;
+
+}
+.change-radio span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 2px rgb(0, 255, 38) solid;background-color: green;
+}
+.change-radio label{
+    display:flex;
+}
+.flex{
+    display:flex;
+    font-size:50px;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+   justify-content:space-around;
+   align-items:center;
+   height:500px;
+}

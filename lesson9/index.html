@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lesson9/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Заголовок</h1>
+        </header>
+        <main>
+            <!-- метод отправки данныч get в url, post на указанный адрес лучше прячет данные -->
+            <form action="http://localhost.com" method="post">
+                <div class="input-field">
+                    <label>Имя пользователя</label>
+                    <input type="text" name="text" value="">
+                </div>
+                <div class="input-field pasword">
+                    <label>Пароль</label>
+                    <input type="password" name="pasword" placeholder="введите пароль" required>
+                    <!-- required не дает отправить пустую форму -->
+                </div>
+                <div class="input-field">
+                    <label>Color</label>
+                    <input type="color" name="color">
+                </div>
+                <div class="input-field">
+                    <label>Scrol</label>
+                    <input type="range" name="range">
+                </div>
+                <div class="input-field">
+                    <label>Scrol</label>
+                    <input type="date" name="date">
+                </div>
+                <div class="input-field">
+                    <label>Number</label>
+                    <input type="number" name="number">
+                </div>
+                <div class="input-field">
+                    <label>mail</label>
+                    <input type="email" name="email" value="bj@com" readonly>
+                    <!-- readonly не розволяет редактировать -->
+                </div>
+                <button>joining</button>
+                <div class="input-field">
+                    <label for="acept">Установить яндекс бар</label>
+                    <input id="acept" type="checkbox" name="acept">
+                </div>
+                <div class="input-field_pd">
+                    <p>Согласны на обраб дан</p>
+                    <label>Yes
+                        <input type="radio" name="personal-data" value="yes">
+                    </label>
+                    <label> NO
+                        <input type="radio" name="personal-data" value="no">
+                    </label>
+                </div>
+                <div class="input-field">
+                    <label>Выбрать город</label>
+                    <select name="city">
+                        <option value="" hidden>Выберите город</option>
+                        <!-- hidden не дает выбрать "выберите город" -->
+                        <option value="minsk">minsk</option>
+                        <option value="grodno">grodno</option>
+                        <option value="gomel" selected>gomel</option>
+                        <!-- selected выбор по умолчанию -->
+                        <option value="vitebsk">vitebsk</option>
+                    </select>
+
+                </div>
+                <div class="input-field">
+                    <label>Введите много текста</label>
+                    <textarea name="many-text"></textarea>
+                </div>
+                <!-- <input type="submit" value="отправить"> --> еще 1 метод отправки заполненных форм
+                <div class="input-field change-check">
+                    <label><p>Установить</p>
+                        <input type="checkbox" name="acept-2"> <span></span>
+                    </label>
+                </div>
+                <div class="input-field_pd change-radio">
+                    <p>Согласны на обраб дан</p>
+                    <label>Yes
+                        <input type="radio" name="personal-data" value="yes"><span></span>
+                    </label>
+                    <label> NO
+                        <input type="radio" name="personal-data" value="no"><span></span>
+                    </label>
+                </div>
+                <div class="flex">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                </div>
+
+
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
